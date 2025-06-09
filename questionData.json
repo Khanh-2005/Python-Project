@@ -1,0 +1,1002 @@
+{
+    "Question1": {
+        "question": "What is encapsulation in Java?",
+        "options": {
+            "option1": "Wrapping data and methods",
+            "option2": "Inheritance",
+            "option3": "Polymorphism",
+            "option4": "Abstraction"
+        },
+        "answer": "option1"
+    },
+    "Question2": {
+        "question": "Which keyword is used for inheritance in Java?",
+        "options": {
+            "option1": "extends",
+            "option2": "implements",
+            "option3": "super",
+            "option4": "this"
+        },
+        "answer": "option1"
+    },
+    "Question3": {
+        "question": "What is method overloading?",
+        "options": {
+            "option1": "Same method name with different parameters",
+            "option2": "Same method name with same parameters",
+            "option3": "Different return types",
+            "option4": "Same parameters"
+        },
+        "answer": "option1"
+    },
+    "Question4": {
+        "question": "Which of the following is not a Java access modifier?",
+        "options": {
+            "option1": "public",
+            "option2": "private",
+            "option3": "protected",
+            "option4": "internal"
+        },
+        "answer": "option4"
+    },
+    "Question5": {
+        "question": "What is abstraction in Java?",
+        "options": {
+            "option1": "Hiding implementation details",
+            "option2": "Overriding methods",
+            "option3": "Using interfaces only",
+            "option4": "Creating objects"
+        },
+        "answer": "option1"
+    },
+    "Question6": {
+        "question": "Which class cannot be instantiated?",
+        "options": {
+            "option1": "Abstract class",
+            "option2": "Concrete class",
+            "option3": "Final class",
+            "option4": "Static class"
+        },
+        "answer": "option1"
+    },
+    "Question7": {
+        "question": "What is the output of a constructor?",
+        "options": {
+            "option1": "Object initialization",
+            "option2": "Return value",
+            "option3": "Null",
+            "option4": "Boolean"
+        },
+        "answer": "option1"
+    },
+    "Question8": {
+        "question": "What is polymorphism?",
+        "options": {
+            "option1": "Multiple forms of a method",
+            "option2": "Inheritance",
+            "option3": "Encapsulation",
+            "option4": "Method hiding"
+        },
+        "answer": "option1"
+    },
+    "Question9": {
+        "question": "What does 'super' keyword do?",
+        "options": {
+            "option1": "Refers to parent class",
+            "option2": "Refers to current class",
+            "option3": "Calls static method",
+            "option4": "None"
+        },
+        "answer": "option1"
+    },
+    "Question10": {
+        "question": "Which of these supports multiple inheritance?",
+        "options": {
+            "option1": "Interface",
+            "option2": "Abstract class",
+            "option3": "Class",
+            "option4": "Object"
+        },
+        "answer": "option1"
+    },
+    "Question11": {
+        "question": "What is a React component?",
+        "options": {
+            "option1": "Reusable piece of UI",
+            "option2": "CSS class",
+            "option3": "API function",
+            "option4": "Database schema"
+        },
+        "answer": "option1"
+    },
+    "Question12": {
+        "question": "Which hook is used for state in function components?",
+        "options": {
+            "option1": "useState",
+            "option2": "useEffect",
+            "option3": "useContext",
+            "option4": "useRef"
+        },
+        "answer": "option1"
+    },
+    "Question13": {
+        "question": "JSX stands for?",
+        "options": {
+            "option1": "JavaScript XML",
+            "option2": "Java Syntax Extension",
+            "option3": "JSON Syntax Extension",
+            "option4": "Java Syntax"
+        },
+        "answer": "option1"
+    },
+    "Question14": {
+        "question": "What is a key in React?",
+        "options": {
+            "option1": "Unique identifier",
+            "option2": "State",
+            "option3": "Hook",
+            "option4": "Class"
+        },
+        "answer": "option1"
+    },
+    "Question15": {
+        "question": "How do you pass data to child component?",
+        "options": {
+            "option1": "Props",
+            "option2": "State",
+            "option3": "Context",
+            "option4": "Reducer"
+        },
+        "answer": "option1"
+    },
+    "Question16": {
+        "question": "Which hook runs side effects?",
+        "options": {
+            "option1": "useEffect",
+            "option2": "useState",
+            "option3": "useCallback",
+            "option4": "useMemo"
+        },
+        "answer": "option1"
+    },
+    "Question17": {
+        "question": "React is mainly used for?",
+        "options": {
+            "option1": "Building UI",
+            "option2": "Networking",
+            "option3": "Database",
+            "option4": "Authentication"
+        },
+        "answer": "option1"
+    },
+    "Question18": {
+        "question": "What is virtual DOM?",
+        "options": {
+            "option1": "In-memory DOM",
+            "option2": "Real DOM",
+            "option3": "Server DOM",
+            "option4": "Shadow DOM"
+        },
+        "answer": "option1"
+    },
+    "Question19": {
+        "question": "Which of these is a valid React event?",
+        "options": {
+            "option1": "onClick",
+            "option2": "click",
+            "option3": "onclick",
+            "option4": "onPress"
+        },
+        "answer": "option1"
+    },
+    "Question20": {
+        "question": "useContext is used for?",
+        "options": {
+            "option1": "Global state",
+            "option2": "CSS styling",
+            "option3": "API call",
+            "option4": "Routing"
+        },
+        "answer": "option1"
+    },
+    "Question21": {
+        "question": "What does CPU stand for?",
+        "options": {
+            "option1": "Central Processing Unit",
+            "option2": "Control Processing Unit",
+            "option3": "Central Performance Unit",
+            "option4": "Computer Processing Unit"
+        },
+        "answer": "option1"
+    },
+    "Question22": {
+        "question": "What is the function of a compiler?",
+        "options": {
+            "option1": "Translates code to machine language",
+            "option2": "Edits code",
+            "option3": "Runs hardware",
+            "option4": "Manages OS"
+        },
+        "answer": "option1"
+    },
+    "Question23": {
+        "question": "What does API stand for?",
+        "options": {
+            "option1": "Application Programming Interface",
+            "option2": "Advanced Program Interface",
+            "option3": "Application Protocol Interface",
+            "option4": "Application Process Integration"
+        },
+        "answer": "option1"
+    },
+    "Question24": {
+        "question": "RAM is used for?",
+        "options": {
+            "option1": "Temporary memory",
+            "option2": "Permanent storage",
+            "option3": "Networking",
+            "option4": "Graphics"
+        },
+        "answer": "option1"
+    },
+    "Question25": {
+        "question": "What does IDE mean?",
+        "options": {
+            "option1": "Integrated Development Environment",
+            "option2": "Internal Device Extension",
+            "option3": "Intelligent Debug Environment",
+            "option4": "Interface Design Editor"
+        },
+        "answer": "option1"
+    },
+    "Question26": {
+        "question": "Bug refers to?",
+        "options": {
+            "option1": "Error in code",
+            "option2": "Feature",
+            "option3": "Design",
+            "option4": "Test case"
+        },
+        "answer": "option1"
+    },
+    "Question27": {
+        "question": "What is software?",
+        "options": {
+            "option1": "Programs and data",
+            "option2": "Hardware",
+            "option3": "Network",
+            "option4": "Cloud"
+        },
+        "answer": "option1"
+    },
+    "Question28": {
+        "question": "What is debugging?",
+        "options": {
+            "option1": "Fixing errors",
+            "option2": "Writing new code",
+            "option3": "Compiling",
+            "option4": "Designing UI"
+        },
+        "answer": "option1"
+    },
+    "Question29": {
+        "question": "Binary system is based on?",
+        "options": {
+            "option1": "0 and 1",
+            "option2": "0-9",
+            "option3": "1-100",
+            "option4": "Alphabets"
+        },
+        "answer": "option1"
+    },
+    "Question30": {
+        "question": "What is the purpose of version control?",
+        "options": {
+            "option1": "Track changes in code",
+            "option2": "Design UI",
+            "option3": "Manage networks",
+            "option4": "Create tests"
+        },
+        "answer": "option1"
+    },
+    "Question31": {
+        "question": "Which SQL command is used to retrieve data?",
+        "options": {
+            "option1": "SELECT",
+            "option2": "INSERT",
+            "option3": "UPDATE",
+            "option4": "DELETE"
+        },
+        "answer": "option1"
+    },
+    "Question32": {
+        "question": "What does DML stand for?",
+        "options": {
+            "option1": "Data Manipulation Language",
+            "option2": "Data Model Language",
+            "option3": "Database Management Language",
+            "option4": "Data Mining Language"
+        },
+        "answer": "option1"
+    },
+    "Question33": {
+        "question": "Which keyword is used for removing duplicates?",
+        "options": {
+            "option1": "DISTINCT",
+            "option2": "UNIQUE",
+            "option3": "FILTER",
+            "option4": "ONLY"
+        },
+        "answer": "option1"
+    },
+    "Question34": {
+        "question": "Which clause filters rows?",
+        "options": {
+            "option1": "WHERE",
+            "option2": "ORDER BY",
+            "option3": "GROUP BY",
+            "option4": "HAVING"
+        },
+        "answer": "option1"
+    },
+    "Question35": {
+        "question": "Which statement adds data?",
+        "options": {
+            "option1": "INSERT INTO",
+            "option2": "SELECT",
+            "option3": "UPDATE",
+            "option4": "DELETE"
+        },
+        "answer": "option1"
+    },
+    "Question36": {
+        "question": "What does JOIN do?",
+        "options": {
+            "option1": "Combines rows from tables",
+            "option2": "Deletes table",
+            "option3": "Adds index",
+            "option4": "Creates DB"
+        },
+        "answer": "option1"
+    },
+    "Question37": {
+        "question": "Which SQL function counts rows?",
+        "options": {
+            "option1": "COUNT()",
+            "option2": "SUM()",
+            "option3": "AVG()",
+            "option4": "MIN()"
+        },
+        "answer": "option1"
+    },
+    "Question38": {
+        "question": "What is a primary key?",
+        "options": {
+            "option1": "Unique identifier",
+            "option2": "Duplicate field",
+            "option3": "Foreign key",
+            "option4": "Optional key"
+        },
+        "answer": "option1"
+    },
+    "Question39": {
+        "question": "What is the result of SELECT *?",
+        "options": {
+            "option1": "All columns",
+            "option2": "Only IDs",
+            "option3": "Only names",
+            "option4": "Only keys"
+        },
+        "answer": "option1"
+    },
+    "Question40": {
+        "question": "Which command changes table structure?",
+        "options": {
+            "option1": "ALTER TABLE",
+            "option2": "SELECT",
+            "option3": "GRANT",
+            "option4": "MERGE"
+        },
+        "answer": "option1"
+    },
+    "Question41": {
+        "question": "What is the output of print(2 ** 3)?",
+        "options": {
+            "option1": "8",
+            "option2": "6",
+            "option3": "9",
+            "option4": "5"
+        },
+        "answer": "option1"
+    },
+    "Question42": {
+        "question": "Which keyword defines a function?",
+        "options": {
+            "option1": "def",
+            "option2": "function",
+            "option3": "func",
+            "option4": "define"
+        },
+        "answer": "option1"
+    },
+    "Question43": {
+        "question": "What data type is [1, 2, 3]?",
+        "options": {
+            "option1": "list",
+            "option2": "tuple",
+            "option3": "set",
+            "option4": "dict"
+        },
+        "answer": "option1"
+    },
+    "Question44": {
+        "question": "How to install a package?",
+        "options": {
+            "option1": "pip install",
+            "option2": "python install",
+            "option3": "pkg install",
+            "option4": "install package"
+        },
+        "answer": "option1"
+    },
+    "Question45": {
+        "question": "What is a dictionary in Python?",
+        "options": {
+            "option1": "Key-value store",
+            "option2": "List",
+            "option3": "Tuple",
+            "option4": "Module"
+        },
+        "answer": "option1"
+    },
+    "Question46": {
+        "question": "What is a lambda?",
+        "options": {
+            "option1": "Anonymous function",
+            "option2": "Loop",
+            "option3": "Module",
+            "option4": "Package"
+        },
+        "answer": "option1"
+    },
+    "Question47": {
+        "question": "Which of these is immutable?",
+        "options": {
+            "option1": "tuple",
+            "option2": "list",
+            "option3": "dict",
+            "option4": "set"
+        },
+        "answer": "option1"
+    },
+    "Question48": {
+        "question": "How to handle exceptions?",
+        "options": {
+            "option1": "try-except",
+            "option2": "if-else",
+            "option3": "while",
+            "option4": "define"
+        },
+        "answer": "option1"
+    },
+    "Question49": {
+        "question": "What does len() do?",
+        "options": {
+            "option1": "Length of item",
+            "option2": "Last item",
+            "option3": "Load item",
+            "option4": "List item"
+        },
+        "answer": "option1"
+    },
+    "Question50": {
+        "question": "What is the result of 'Hello' + 'World'?",
+        "options": {
+            "option1": "HelloWorld",
+            "option2": "Hello World",
+            "option3": "Error",
+            "option4": "None"
+        },
+        "answer": "option1"
+    },
+    "Question51": {
+        "question": "What is '===' in JavaScript?",
+        "options": {
+            "option1": "Strict equality",
+            "option2": "Assignment",
+            "option3": "Comparison",
+            "option4": "Inequality"
+        },
+        "answer": "option1"
+    },
+    "Question52": {
+        "question": "Which keyword declares a variable?",
+        "options": {
+            "option1": "let",
+            "option2": "const",
+            "option3": "var",
+            "option4": "all of the above"
+        },
+        "answer": "option4"
+    },
+    "Question53": {
+        "question": "What is the output of typeof null?",
+        "options": {
+            "option1": "object",
+            "option2": "null",
+            "option3": "undefined",
+            "option4": "function"
+        },
+        "answer": "option1"
+    },
+    "Question54": {
+        "question": "Which method adds an item to the end of an array?",
+        "options": {
+            "option1": "push()",
+            "option2": "pop()",
+            "option3": "shift()",
+            "option4": "unshift()"
+        },
+        "answer": "option1"
+    },
+    "Question55": {
+        "question": "What is NaN?",
+        "options": {
+            "option1": "Not a Number",
+            "option2": "Null value",
+            "option3": "Negative integer",
+            "option4": "Array"
+        },
+        "answer": "option1"
+    },
+    "Question56": {
+        "question": "Which symbol is used for comments?",
+        "options": {
+            "option1": "//",
+            "option2": "/*",
+            "option3": "#",
+            "option4": "<!--"
+        },
+        "answer": "option1"
+    },
+    "Question57": {
+        "question": "What is a closure?",
+        "options": {
+            "option1": "Function with preserved scope",
+            "option2": "Class",
+            "option3": "Library",
+            "option4": "Object"
+        },
+        "answer": "option1"
+    },
+    "Question58": {
+        "question": "What is the output of '2' + 2?",
+        "options": {
+            "option1": "22",
+            "option2": "4",
+            "option3": "NaN",
+            "option4": "Error"
+        },
+        "answer": "option1"
+    },
+    "Question59": {
+        "question": "What is the DOM?",
+        "options": {
+            "option1": "Document Object Model",
+            "option2": "Data Object Model",
+            "option3": "Design Object Model",
+            "option4": "None"
+        },
+        "answer": "option1"
+    },
+    "Question60": {
+        "question": "Which company developed JavaScript?",
+        "options": {
+            "option1": "Netscape",
+            "option2": "Microsoft",
+            "option3": "Google",
+            "option4": "Apple"
+        },
+        "answer": "option1"
+    },
+    "Question61": {
+        "question": "What is manual testing?",
+        "options": {
+            "option1": "Testing without automation",
+            "option2": "Automated testing",
+            "option3": "Unit testing",
+            "option4": "White box testing"
+        },
+        "answer": "option1"
+    },
+    "Question62": {
+        "question": "What is a test case?",
+        "options": {
+            "option1": "Set of conditions to test software",
+            "option2": "Program",
+            "option3": "Code",
+            "option4": "Script"
+        },
+        "answer": "option1"
+    },
+    "Question63": {
+        "question": "What is black box testing?",
+        "options": {
+            "option1": "Testing without knowing internal code",
+            "option2": "Unit testing",
+            "option3": "Code review",
+            "option4": "Performance test"
+        },
+        "answer": "option1"
+    },
+    "Question64": {
+        "question": "What is regression testing?",
+        "options": {
+            "option1": "Re-testing after changes",
+            "option2": "Initial testing",
+            "option3": "Smoke testing",
+            "option4": "Beta testing"
+        },
+        "answer": "option1"
+    },
+    "Question65": {
+        "question": "Which is not a testing type?",
+        "options": {
+            "option1": "Waterfall testing",
+            "option2": "Smoke testing",
+            "option3": "Integration testing",
+            "option4": "System testing"
+        },
+        "answer": "option1"
+    },
+    "Question66": {
+        "question": "What is a defect?",
+        "options": {
+            "option1": "Deviation from expected result",
+            "option2": "Feature",
+            "option3": "Requirement",
+            "option4": "Module"
+        },
+        "answer": "option1"
+    },
+    "Question67": {
+        "question": "Test plan is?",
+        "options": {
+            "option1": "Document describing testing scope",
+            "option2": "Code",
+            "option3": "Bug report",
+            "option4": "User manual"
+        },
+        "answer": "option1"
+    },
+    "Question68": {
+        "question": "What is UAT?",
+        "options": {
+            "option1": "User Acceptance Testing",
+            "option2": "Unit Analysis Test",
+            "option3": "Usability Test",
+            "option4": "Update Access Test"
+        },
+        "answer": "option1"
+    },
+    "Question69": {
+        "question": "What is exploratory testing?",
+        "options": {
+            "option1": "Unscripted, informal testing",
+            "option2": "Scripted test",
+            "option3": "Automated test",
+            "option4": "Unit test"
+        },
+        "answer": "option1"
+    },
+    "Question70": {
+        "question": "What is test coverage?",
+        "options": {
+            "option1": "How much code is tested",
+            "option2": "Bug count",
+            "option3": "Test case count",
+            "option4": "Lines of code"
+        },
+        "answer": "option1"
+    },
+    "Question71": {
+        "question": "Node.js is built on which engine?",
+        "options": {
+            "option1": "V8",
+            "option2": "SpiderMonkey",
+            "option3": "Java",
+            "option4": "React"
+        },
+        "answer": "option1"
+    },
+    "Question72": {
+        "question": "What is npm?",
+        "options": {
+            "option1": "Node Package Manager",
+            "option2": "Node Project Module",
+            "option3": "Network Package Manager",
+            "option4": "New Project Module"
+        },
+        "answer": "option1"
+    },
+    "Question73": {
+        "question": "Which method reads files?",
+        "options": {
+            "option1": "fs.readFile()",
+            "option2": "readFile()",
+            "option3": "file.read()",
+            "option4": "fs.getFile()"
+        },
+        "answer": "option1"
+    },
+    "Question74": {
+        "question": "Which framework is used with Node.js?",
+        "options": {
+            "option1": "Express",
+            "option2": "Laravel",
+            "option3": "Django",
+            "option4": "Rails"
+        },
+        "answer": "option1"
+    },
+    "Question75": {
+        "question": "Which function handles asynchronous errors?",
+        "options": {
+            "option1": "try-catch",
+            "option2": "if-else",
+            "option3": "while",
+            "option4": "catchError"
+        },
+        "answer": "option1"
+    },
+    "Question76": {
+        "question": "Node.js is?",
+        "options": {
+            "option1": "Single-threaded",
+            "option2": "Multi-threaded",
+            "option3": "OS",
+            "option4": "Database"
+        },
+        "answer": "option1"
+    },
+    "Question77": {
+        "question": "Which file starts a Node project?",
+        "options": {
+            "option1": "package.json",
+            "option2": "index.js",
+            "option3": "main.js",
+            "option4": "app.js"
+        },
+        "answer": "option1"
+    },
+    "Question78": {
+        "question": "What is middleware?",
+        "options": {
+            "option1": "Function with access to req/res",
+            "option2": "Database",
+            "option3": "Variable",
+            "option4": "Error"
+        },
+        "answer": "option1"
+    },
+    "Question79": {
+        "question": "What is Express.js?",
+        "options": {
+            "option1": "Web framework for Node.js",
+            "option2": "Python tool",
+            "option3": "Database",
+            "option4": "Testing tool"
+        },
+        "answer": "option1"
+    },
+    "Question80": {
+        "question": "How to export a module?",
+        "options": {
+            "option1": "module.exports",
+            "option2": "export()",
+            "option3": "include()",
+            "option4": "require()"
+        },
+        "answer": "option1"
+    },
+    "Question81": {
+        "question": "What is a stack?",
+        "options": {
+            "option1": "LIFO structure",
+            "option2": "FIFO structure",
+            "option3": "Tree",
+            "option4": "Graph"
+        },
+        "answer": "option1"
+    },
+    "Question82": {
+        "question": "Which data structure uses FIFO?",
+        "options": {
+            "option1": "Queue",
+            "option2": "Stack",
+            "option3": "Tree",
+            "option4": "Heap"
+        },
+        "answer": "option1"
+    },
+    "Question83": {
+        "question": "Which algorithm is used in sorting?",
+        "options": {
+            "option1": "Merge sort",
+            "option2": "DFS",
+            "option3": "BFS",
+            "option4": "A*"
+        },
+        "answer": "option1"
+    },
+    "Question84": {
+        "question": "What is the time complexity of binary search?",
+        "options": {
+            "option1": "O(log n)",
+            "option2": "O(n)",
+            "option3": "O(n^2)",
+            "option4": "O(1)"
+        },
+        "answer": "option1"
+    },
+    "Question85": {
+        "question": "Which data structure uses nodes and pointers?",
+        "options": {
+            "option1": "Linked list",
+            "option2": "Array",
+            "option3": "Stack",
+            "option4": "Queue"
+        },
+        "answer": "option1"
+    },
+    "Question86": {
+        "question": "What is a graph?",
+        "options": {
+            "option1": "Set of nodes and edges",
+            "option2": "Loop",
+            "option3": "Queue",
+            "option4": "Array"
+        },
+        "answer": "option1"
+    },
+    "Question87": {
+        "question": "DFS stands for?",
+        "options": {
+            "option1": "Depth First Search",
+            "option2": "Data File System",
+            "option3": "Dual Fast Sort",
+            "option4": "Data Find System"
+        },
+        "answer": "option1"
+    },
+    "Question88": {
+        "question": "Which is a balanced tree?",
+        "options": {
+            "option1": "AVL",
+            "option2": "Binary",
+            "option3": "Heap",
+            "option4": "Linked list"
+        },
+        "answer": "option1"
+    },
+    "Question89": {
+        "question": "What is hashing?",
+        "options": {
+            "option1": "Mapping keys to values",
+            "option2": "Encryption",
+            "option3": "Sorting",
+            "option4": "Searching"
+        },
+        "answer": "option1"
+    },
+    "Question90": {
+        "question": "Which algorithm is used for shortest path?",
+        "options": {
+            "option1": "Dijkstra",
+            "option2": "BFS",
+            "option3": "DFS",
+            "option4": "A*"
+        },
+        "answer": "option1"
+    },
+    "Question91": {
+        "question": "What are the correct port numbers used for FTP (File Transfer Protocol)?",
+        "options": {
+          "option1": "20/21",
+          "option2": "22/23",
+          "option3": "63/64",
+          "option4": "123/128"
+        },
+        "answer": "option1"
+      },
+    "Question92": {
+        "question": "Which protocol uses port 22?",
+        "options": {
+          "option1": "FTP",
+          "option2": "SSH",
+          "option3": "HTTP",
+          "option4": "SMTP"
+        },
+        "answer": "option2"
+      },
+    "Question93": {
+        "question": "What does HTTP stand for?",
+        "options": {
+          "option1": "HyperText Transfer Protocol",
+          "option2": "HighText Transfer Protocol",
+          "option3": "Hyper Transfer Text Process",
+          "option4": "None of the above"
+        },
+        "answer": "option1"
+      },
+    "Question94": {
+        "question": "Which protocol is used to send emails?",
+        "options": {
+          "option1": "FTP",
+          "option2": "HTTP",
+          "option3": "SMTP",
+          "option4": "IMAP"
+        },
+        "answer": "option3"
+      },
+    "Question95": {
+        "question": "Which protocol is used to receive emails?",
+        "options": {
+          "option1": "POP3",
+          "option2": "SMTP",
+          "option3": "FTP",
+          "option4": "HTTP"
+        },
+        "answer": "option1"
+      },
+    "Question96": {
+        "question": "Port 80 is used by which protocol?",
+        "options": {
+          "option1": "HTTPS",
+          "option2": "HTTP",
+          "option3": "SSH",
+          "option4": "FTP"
+        },
+        "answer": "option2"
+      },
+    "Question97": {
+        "question": "Which layer of the OSI model does IP operate at?",
+        "options": {
+          "option1": "Transport",
+          "option2": "Network",
+          "option3": "Data Link",
+          "option4": "Application"
+        },
+        "answer": "option2"
+      },
+    "Question98": {
+        "question": "What does DNS stand for?",
+        "options": {
+          "option1": "Data Name Service",
+          "option2": "Domain Name System",
+          "option3": "Dynamic Network Service",
+          "option4": "Digital Network Server"
+        },
+        "answer": "option2"
+      },
+    "Question99": {
+        "question": "Which of the following is a secure protocol?",
+        "options": {
+          "option1": "HTTP",
+          "option2": "FTP",
+          "option3": "HTTPS",
+          "option4": "Telnet"
+        },
+        "answer": "option3"
+      },
+    "Question100": {
+        "question": "Which protocol uses port 443?",
+        "options": {
+          "option1": "HTTP",
+          "option2": "FTP",
+          "option3": "SMTP",
+          "option4": "HTTPS"
+        },
+        "answer": "option4"
+      }
+    }
