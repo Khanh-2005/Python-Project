@@ -1,1 +1,1 @@
-Snake Hunting Game
+Snake Hunting Game using Tkinter
