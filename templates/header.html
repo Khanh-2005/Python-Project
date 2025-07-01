@@ -1,0 +1,106 @@
+<!-- ***** Preloader Start ***** -->
+<div id="preloader">
+  <div class="jumper">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+</div>
+<!-- ***** Preloader End ***** -->
+
+<!-- Header -->
+<header class="">
+  <nav class="navbar navbar-expand-lg bg-white">
+    <div class="container">
+      <a class="navbar-brand" href="{% url 'index' %}">
+        <h2>My<span style="color: rgb(241, 110, 70);">Blog</span></h2>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+        <!-- Form tìm kiếm với style nội tuyến -->
+        <li class="nav-item">
+          <form class="d-flex" action="{% url 'search' %}" method="get" style="margin: 0; padding: 0;">
+            <div class="input-group" style="margin-top: 5px;">
+              <input class="form-control" type="search" name="query" placeholder="Tìm bài viết..." aria-label="Search" 
+                style="height: 36px; width: 300px; font-size: 14px; border-radius: 18px 0 0 18px; border: 1px solid #e0e0e0; padding-left: 15px; background-color: #f8f9fa;">
+              <div class="input-group-append">
+                <button class="btn" type="submit" 
+                  style="height: 36px; background-color: #f48840; border: none; color: #fff; border-radius: 0 18px 18px 0; padding: 0 15px;">
+                  <i class="fa fa-search"></i>
+                </button>
+              </div>
+            </div>
+          </form>
+        </li>
+
+         <!-- Dropdown menu cho danh mục -->
+         <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Categories
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #fff; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+            <a class="dropdown-item" href="{% url 'category_filter' 'Nature' %}" style="color: #333; font-weight: 500; padding: 8px 15px; transition: all 0.3s;">
+              <i class="fa fa-leaf mr-2" style="color: #66bb6a;"></i> Nature
+            </a>
+            <a class="dropdown-item" href="{% url 'category_filter' 'Travel' %}" style="color: #333; font-weight: 500; padding: 8px 15px; transition: all 0.3s;">
+              <i class="fa fa-plane mr-2" style="color: #42a5f5;"></i> Travel
+            </a>
+            <a class="dropdown-item" href="{% url 'category_filter' 'Education' %}" style="color: #333; font-weight: 500; padding: 8px 15px; transition: all 0.3s;">
+              <i class="fa fa-book mr-2" style="color: #ec407a;"></i> Education
+            </a>
+            <a class="dropdown-item" href="{% url 'category_filter' 'Technology' %}" style="color: #333; font-weight: 500; padding: 8px 15px; transition: all 0.3s;">
+              <i class="fa fa-laptop mr-2" style="color: #7e57c2;"></i> Technology
+            </a>
+            <a class="dropdown-item" href="{% url 'category_filter' 'Artificial Intelligence' %}" style="color: #333; font-weight: 500; padding: 8px 15px; transition: all 0.3s;">
+              <i class="fa fa-robot mr-2" style="color: #ff7043;"></i> Artificial Intelligence
+            </a>
+          </div>
+        </li>
+
+          <li>
+            <a class="nav-link" href="{% url 'index' %}">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'blog' %}">Blogs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'contact' %}">Contact</a>
+          </li>
+          
+          {% if user.is_authenticated %}
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'create' %}">Create</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'profile' user.id %}">Profile</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-primary" href="{% url 'logout' %}">Logout</a>
+          </li>
+          {% else %}
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'signin' %}"><i class="fa fa-user"></i></a>
+          </li>
+          {% endif %}
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<!-- Page Content -->
+<!-- Banner Starts Here -->
+<div class="main-banner header-text">
+  <div class="container-fluid">
+    <div class="owl-banner owl-carousel">
+
+    </div>
+  </div>
+</div>
+<!-- Banner Ends Here -->
