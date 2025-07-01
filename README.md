@@ -1,1 +1,1 @@
-Flashcard for IT major
+Flashcard for IT major using Tkinter
